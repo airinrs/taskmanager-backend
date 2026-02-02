@@ -1,0 +1,14 @@
+package com.airin.taskmanager_backend.dto.task;
+
+import java.time.LocalDate;
+
+import com.airin.taskmanager_backend.entity.TaskStatus;
+
+public class TaskResponse {
+    public String id;
+    public String title;
+    public String description;
+    public String userId;
+    public TaskStatus status;
+    public LocalDate dueDate;
+}
