@@ -1,0 +1,14 @@
+spring:
+  profiles:
+    active: dev
+
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/taskmanager
+
+server:
+  port: 8080
+
+jwt:
+  secret: "CHANGE_THIS_TO_A_LONG_RANDOM_SECRET_AT_LEAST_32_CHARS"
+  expirationMinutes: 1440
